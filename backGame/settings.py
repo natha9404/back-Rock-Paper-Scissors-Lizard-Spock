@@ -25,7 +25,7 @@ SECRET_KEY = 'h#&+muf2pts_$g1@l4081jb=9p@9^kg%1cxrpd^)wzs@jo%y%e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['natha9404.pythonanywhere.com']
 
 
 # Application definition
