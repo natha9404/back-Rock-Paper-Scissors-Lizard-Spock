@@ -25,7 +25,7 @@ SECRET_KEY = 'h#&+muf2pts_$g1@l4081jb=9p@9^kg%1cxrpd^)wzs@jo%y%e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['natha9404.pythonanywhere.com']
+ALLOWED_HOSTS = ['natha9404.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework'
+    'rest_framework',
+    'gameLogic'
 ]
 
 MIDDLEWARE = [
